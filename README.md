@@ -1,4 +1,4 @@
-# Geek Wisdom Address Auto Fill and Validtor
+# Geek Wisdom Address Auto Fill and Validator
 
 ![ScreenShot](https://github.com/geekwisdom/gwAddressValidator/blob/master/img/envelope.png?raw=true)
 
@@ -25,6 +25,11 @@ The acutal address data shall be stored in flat files within this github project
 
 When the user submits a new address, the address information will be submitted via creating Script tags, to call a REST web service that adds the new entry to the database and trigges a re-commit of the update XML,JSON, and JS files back to github.
 
+## Basic Usage
+
+Basic usage is demonstrated in the testaddr.html.  To use simply include the javascript library, and create two functions one 'doValidate' which takes in a country and a postal code, and one 'FillAddress' CALLBACK which given an array containing the Address Line 1 (ADDR1), Address Line 2 (ADDR2), City/Town (MUNC), State/Province (PRINCIPAL) you write code that fills in these array values into your Address Form.
+
+You instiantate the gwAddrValdiator Object by passing in the name of your CALLBACK and execute the objects ValiateAddress function to complete the validation.
 
 ## Status
 
