@@ -1,6 +1,6 @@
 # Geek Wisdom Address Auto Fill and Validtor
 
-![ScreenShot](https://github.com/geekwisdom/gwAddressValidator/blob/master/img/envelope.png?raw=true =250x250)
+![ScreenShot](https://github.com/geekwisdom/gwAddressValidator/blob/master/img/envelope.png?raw=true)
 
 ## Address Validation
 
